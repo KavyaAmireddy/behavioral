@@ -1,0 +1,21 @@
+Feature: Test calc features using behave testing
+   Scenario: start calc test for multiple digits
+     Given we have have to test input string
+     when we have input string "99999"
+     then we will get result as 99999
+   Scenario: start calc test for negative_numbers
+     Given we have have to test input string
+     when we have input string "---123"
+     then we will get result as -123
+   Scenario: start calc test for floating_numbers
+     Given we have have to test input string
+     when we have input string "123.456"
+     then we will get result as 123.456
+   Scenario: start calc test for hexadecimal_numbers
+     Given we have have to test input string
+     when we have input string "0X10"
+     then we will get result as 16
+   Scenario: start calc test for adding_two_numbers
+     Given we have have to test input string
+     when we have input string "1+1"
+     then we will get result as 2  
